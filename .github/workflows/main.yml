@@ -3,7 +3,7 @@ name: Deploy Vue and Express
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - test-gh-pages  # Trigger on pushes to the main branch
 
 jobs:
   build-and-deploy:
